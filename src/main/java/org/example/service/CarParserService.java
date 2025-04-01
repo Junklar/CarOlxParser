@@ -1,5 +1,4 @@
 package org.example.service;
-
 import lombok.extern.slf4j.Slf4j;
 import org.example.model.Car;
 import org.example.repository.CarRepository;
@@ -10,7 +9,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.time.LocalDate;

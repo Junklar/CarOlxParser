@@ -1,10 +1,8 @@
 package org.example.service;
-
 import org.example.model.Car;
 import org.example.repository.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;

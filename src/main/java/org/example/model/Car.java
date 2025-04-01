@@ -1,5 +1,4 @@
 package org.example.model;
-
 import jakarta.persistence.*;
 import lombok.Data;
 import java.math.BigDecimal;
