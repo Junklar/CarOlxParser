@@ -1,0 +1,82 @@
+body {
+    padding-top: 50px;
+    background-color: #f8f9fa;
+}
+.car-card {
+    margin-bottom: 25px;
+}
+.car-card .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+.car-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.car-card .card-title {
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    color: #333;
+}
+.car-card .card-body {
+    padding: 20px;
+}
+.currency-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.currency-table th, .currency-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+.currency-table th {
+    background-color: #f2f2f2;
+}
+.price-block {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.original-price {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+.card-info-row {
+    margin-bottom: 8px;
+    display: flex;
+}
+.card-info-label {
+    font-weight: 600;
+    min-width: 80px;
+}
+.btn-olx {
+    background-color: #002f34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    width: 100%;
+    margin-top: 15px;
+}
+.btn-olx:hover {
+    background-color: #004650;
+    color: white;
+}
+.location-info {
+    display: flex;
+    align-items: center;
+}
+.location-info i {
+    margin-right: 5px;
+    color: #6c757d;
+}
+.uah-price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #28a745;
+}
